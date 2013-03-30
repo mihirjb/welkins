@@ -1,0 +1,248 @@
+body
+{
+	background:  url(../../assets/images/siteimages/bg_grain.jpg) repeat;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
+}
+header{
+	position:relative;
+}
+header h1
+{
+	font-size:22px;
+	font-family: 'Rochester', cursive;
+position:absolute;
+top:50px;
+left:48.2%;
+	background-color:#92cd00;
+	padding:30px 16px 0px;
+		border-radius:200px;
+		display:inline-block;
+		height:70px;
+		z-index:99999;
+		box-shadow:0px 2px 3px #888;
+		-moz-box-shadow:0px 2px 3px #888;
+		-webkit-box-shadow:0px 2px 3px #888;
+		-o-box-shadow:2px 2px 3px #888;
+		
+		
+}
+header h1 a
+{
+	color:#fff;
+	text-decoration:none;
+}
+header h1 a:hover
+{
+	color:#fff;
+	text-decoration:none;
+}
+div.navbar-inverse
+{
+	background-color:#000;
+	margin-bottom:0px;
+}
+div.navbar-inner
+{
+	height:110px;
+}
+ul.nav
+{
+	width:680px;
+	text-align:center;
+	margin: 0 auto;
+}
+ul.nav li a
+{
+	text-transform:uppercase;
+	margin-top:20px;
+	padding: 10px 30px 10px;
+	font-size:14px;
+	font-weight:light;
+	color:#fcfcfc;
+}
+ul.nav li a:hover, ul.nav li a:active
+{
+	color:#f5d04c;
+	
+}
+img.power
+{
+	float:left;
+	height:40px;
+	width:40px;
+	background-color:#000;
+	margin-top-125px;
+}
+#slider { 
+	position:relative;
+	height:600px;
+	overflow:hidden;
+	
+}
+
+#slider > div { 
+	position:absolute;
+	width:100%;
+     
+}
+div#slider img
+{
+	width:100% ;
+}
+section 
+{
+	clear:both;
+	padding:60px 0px 20px;
+	min-height:600px;
+
+  
+}
+section h1
+{
+	font-family: 'Rochester', cursive;
+	text-align:center;
+	font-size:48px;
+	padding:30px 0px;
+	text-shadow: 2px 2px -2px #ccc;
+}
+section img.logos
+{
+	width:90px;
+	max-height:60px;
+	margin:20px 40px;
+	opacity:.75;
+}
+section div.logos
+{
+	margin-top:50px;
+
+}
+section div.product-links 
+{
+	overflow:auto;
+	padding:30px 0px;
+	background-color:#2e2e2e;
+	border: 3px dotted #f5d04c;
+}
+section div.product-links a
+{
+	font-family: 'Droid Sans', sans-serif;
+	padding: 330px 0px 5px 100px;
+	height: 30px;
+	width:257px;
+	display:inline-block;
+	font-size:36px;
+	text-decoration:none;
+	color:#0C1127;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0px 22px 0px 22px;
+	float:left;
+	text-align:center;
+	
+}
+section div.product-links a.lenses
+{
+	background-image: url(../../assets/images/siteimages/lenses.jpg);
+}
+
+section div.product-links a.sunglasses
+{
+	background-image: url(../../assets/images/siteimages/sunglasses2.jpg);
+	margin:0;
+
+}
+section div.product-links a.specs
+{
+	background-image: url(../../assets/images/siteimages/specs.jpg);
+}
+div p.intro
+{
+	color:#666;
+	font-size:18px;
+	line-height:36px;
+	padding:20px 0px;	
+}
+
+/*****************css to sort *******************/
+
+section#wrap_up {
+  text-align: center;
+  background: #2e2e2e;
+  border: 0;
+height:100px !important;
+  }
+
+section#wrap_up h2 {
+  background: none;
+  font-family: "kulturista-web-1","kulturista-web-2", Georgia, Times, serif;
+  font-size: 20px;
+  color: #fff;
+  line-height: 29px;
+  margin: 0 auto 31px;
+  max-width: 700px;
+  text-align: center;
+  }
+
+#credits {
+  text-align: center;
+  border-top: 1px dotted #242424;
+  background: #2e2e2e;
+  color: #505050;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 21px;
+  padding: 21px 0;
+  }
+
+#credits a {
+  color: #f5d04c;
+  white-space: nowrap;
+  }
+
+#credits a:hover {
+  color: #eee;
+  }
+span.myellow
+{
+	color:#f5d04c;
+}
+
+
+div.left-part
+{
+	float:left;
+	width:50%;
+}
+div.right-part
+{
+	float:left;
+	width:50%;
+}
+
+ul.imglist li
+{
+	display:inline;
+	flaot:left;
+}
+ul.imglist li img
+{
+	height:300px;
+	margin:4px 2px;
+	
+
+}
+
+div.right-part ul.imglist li img
+{
+	height:180px;
+	margin:2px;
+
+}
+
+p.contact
+{
+	text-align:center;
+}

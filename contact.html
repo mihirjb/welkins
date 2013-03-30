@@ -1,0 +1,81 @@
+<html>
+<head>
+	<link href="includes/css/bootstrap/css/bootstrap.css" rel="stylesheet"  media ="all">
+	<link href="includes/css/bootstrap/css/bootstrap-responsive.css" rel="stylesheet"  media ="all">
+	<meta name="viewport" content="width=device-width"/>
+	<link href="includes/css/custom.css" rel="stylesheet"  media ="all">
+	<link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
+	<link href="includes/css/slimbox2.css" rel="stylesheet"  media ="all">
+<script src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="includes/js/slimbox2.js"></script></head>
+<body>
+<header>
+	<h1><a href="index.html">Welkins</a></h1>
+	<div class="navbar-inverse">
+		<div class="navbar-inverse navbar-inner">
+			<div class="container">
+			<ul class="nav nav-pills">
+				<li><a href="index.html">Home</a></li>
+				<li><a href ="spectacles.html">Spectacles</a></li>
+				<li><a href ="lenses.html">Lenses</a></li>
+				<li><a href ="sunglasses.html">Sunglasses</a></li>
+				<li class="active"><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+</header>
+<div id="slider" class="nivoSlider">
+            <div>
+                            <img src="assets/images/slideshow1.jpg" alt="image06"/>
+                 </div><div>         
+
+                           <img src="assets/images/slideshow2.jpg" alt="image01" />
+                            </div><div>
+                             
+<img src="assets/images/slideshow3.jpg" alt="image02" />
+                           </div>     
+							<div>
+                            
+<img src="assets/images/slideshow4.jpg" alt="image02" />
+                          </div> 
+</div>
+<section>
+	<div class="container">
+		<h1>Address</h1>
+		<p class="intro contact">WELKINS OPTIC <br/>                        
+			12, Zaver Chambers,<br/>                
+			Opp. Income-Tax Office,<br/>                     
+			Pandit Nehru Marg,<br/>  
+			JAMNAGAR - 361 008 (INDIA)<br/>
+			</p>
+			<h1>Phone number</h1>
+			<p class="intro contact">               
+		<strong>Ph: +91 288 2554769</strong><br/>   
+		</p>
+	
+
+	</div>
+</section>
+
+ <div id="credits"><a href="http://happyfellas.com">Development by Happyfellas</a></div>
+
+
+
+<script language="javascript">
+$("#slider > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slider > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slider');
+},  3000);
+</script>
+
+
+</body>
+</html>

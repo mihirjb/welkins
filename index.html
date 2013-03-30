@@ -1,0 +1,100 @@
+<html>
+<head>
+	<link href="includes/css/bootstrap/css/bootstrap.css" rel="stylesheet"  media ="all">
+	<link href="includes/css/bootstrap/css/bootstrap-responsive.css" rel="stylesheet"  media ="all">
+	<meta name="viewport" content="width=device-width"/>
+	<link href="includes/css/custom.css" rel="stylesheet"  media ="all">
+	<link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.js"></script>
+ 
+</head>
+<body>
+<header>
+	<h1><a href="index.html">Welkins</a></h1>
+	<div class="navbar-inverse">
+		<div class="navbar-inverse navbar-inner">
+			<div class="container">
+			<ul class="nav nav-pills">
+				<li class="active" ><a  href="index.html">Home</a></li>
+				<li><a href ="spectacles.html">Spectacles</a></li>
+				<li><a href ="lenses.html">Lenses</a></li>
+				<li><a href ="sunglasses.html">Sunglasses</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+</header>
+<div id="slider" class="nivoSlider">
+            <div>
+                            <img src="assets/images/home/slideshow/slide1.jpg" alt="image06"/>
+                 </div><div>         
+
+                           <img src="assets/images/home/slideshow/slide2.jpg" alt="image01" />
+                            </div><div>
+                             
+<img src="assets/images/home/slideshow/slide3.jpg" alt="image02" />
+                           </div>     
+							<div>
+                            
+<img src="assets/images/home/slideshow/slide4.jpg" alt="image02" />
+                          </div> 
+</div>
+	<section>
+		<div class="container">
+		<div><p class="intro">For over 15 years, Welkins Optic located near Income tax office of Jamnagar City, has operated as a full service optical shop.
+
+		Our opticians, who have passed licensing exams , always focus on providing a comprehensive eye exam that will allow each patient to achieve optimum vision. 
+
+		Our selection of eyewear ranges from budget priced eyewear frames and sunglasses to an exclusive variety of the latest designer eyewear collections that is guaranteed to personalize your eyewear and unique lifestyle needs. We also have lenses from exotic brands to offer.
+		</p>
+		</div>
+		<h1>All products are available under <span class="myellow">one</span> roof</h1>
+		
+	<div class="product-links"><a href="lenses.html" class="lenses"> &nbsp;&nbsp;&nbsp;Lenses</a><a href="sunglasses.html" class="sunglasses">Sunglasses</a><a href="spectacles.html" class="specs">Spectacles</a></div>
+	
+	</div>
+	
+	</section>
+<section>
+	<div class="container">
+	<h1>We are dealers of <span class="myellow">exotic brands</span> like</h1>
+	<div class="logos">
+	<img src="assets/images/siteimages/essilor.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/rayban.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/police.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/gucci.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/dior.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/spykar.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/ao.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/ck.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/dkny.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/dng.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/jnj.jpg" alt="essilor"  class="logos"/>
+	<img src="assets/images/siteimages/hoya.jpg" alt="essilor"  class="logos"/>
+	
+    	</div>
+</div>
+</section>
+
+ <div id="credits"><a href="http://happyfellas.com">Development by Happyfellas</a></div>
+
+
+
+<script language="javascript">
+$("#slider > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slider > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slider');
+},  3000);
+</script>
+
+
+</body>
+</html>
